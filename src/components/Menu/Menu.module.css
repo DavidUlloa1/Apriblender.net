@@ -1,0 +1,39 @@
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-flow: column;
+
+    padding: 4px;
+    z-index: 1;
+}
+
+.btn {
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    margin: 4px;
+    border-radius: 8px;
+    background: linear-gradient(#59A2F3 44.44%, #59A2F3 44.44%, #388AE3 44.44%, #388AE3 55.55%, #2068D2 55.55%, #2068D2 100%);
+    border: 2px solid #2068D2;
+    outline: 2px solid #515151;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: url('@/../../../../public/hand_open.png') 0 100 , default !important;
+}
+
+.a {
+    cursor: url('@/../../../../public/hand_open.png') 0 100 , default !important;
+}
+
+.btn:hover {
+    background: #2068D2;
+}
+
+.icon {
+    width: 80%;
+    height: 80%;
+}

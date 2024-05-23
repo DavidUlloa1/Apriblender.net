@@ -1,0 +1,27 @@
+{
+    "base": "Put the Apricorn in the Apriblender",
+    "tastes": ["Spicy", "Sour", "Dry", "Bitter", "Sweet"],
+    "attributes": ["Power", "Stamina", "Skill", "Jump", "Speed"],
+    "strong_messages": [["It's a spicy flavor.", "A little sour.", "A refined, dry taste.", "A somewhat bitter taste.", "A sweet taste."],
+        ["A pungent flavor.", "An invigorating flavor.", "A strong, dry taste!", "A slightly bitter flavor.", "A nice, sweet taste."],
+        ["So spicy, you'll sweat!", "Mmmmmph! Sour!", "Incredibly dry!", "An intense bitterness!", "Very sweet!"],
+        ["So spicy, it causes coughing!", "Unbearably sour!", "A pervadingly dry taste!", "A massively bitter taste!", "A sickly-sweet flavor!"],
+        ["A resounding spiciness!", "A deep sourness!", "A deep-seated, dry taste!", "A sinking bitterness!", "A melt-in-your-mouth sweetness."],
+        ["The ultimate spiciness!", "An extremely sour taste!", "An extremely dry taste!", "The peak of bitterness!", "So incredibly sweet!"]],
+    "second_strong_messages": [["A hint of spicy taste...", "A hint of sourness.", "A slight dry taste...", "Barely a hint of bitterness.", "Barely a hint of sweetness..."],
+        ["A little salty.", "A little sour.", "A light dry taste", "Just a little bitter.", "Just a little sweet..."],
+        ["Quite spicy.", "Quite sour.", "A quite dry taste.", "A strongly bitter taste.", "A strongly sweet taste..."],
+        ["A strong spiciness.", "Intensely sour.", "An intensely dry taste.", "Intensely bitter.", "An intensely sweet taste..."]],
+    "third_strong_messages": [["A very faint spiciness.", "A very faint sourness.", "A very faint dry taste.", "A very faint bitterness.", "A very faint sweetness."],
+        ["Merely a hint of spiciness.", "Merely a hint of sourness.", "A hint of dry taste.", "Merely a hint of bitterness.", "Merely a hint of sweetness."],
+        ["The spiciness comes through.", "The sourness comes through.", "The dryness comes through.", "The bitterness comes through.", "The sweeetness comes through."]],
+    "color_text": {
+        "red": ["Red Apricorn", "A red Apricorn.", "It assails your nostrils."],
+        "blu": ["Blu Apricorn", "A blue Apricorn.", "It smells a bit like grass."],
+        "pnk": ["Pnk Apricorn", "A pink Apricorn.", "It has a nice, sweet scent."],
+        "blk": ["Blk Apricorn", "A black Apricorn.", "It has an indescribable scent."],
+        "ylw": ["Ylw Apricorn", "A yellow Apricorn.", "It has an invigorating scent."],
+        "grn": ["Grn Apricorn", "A green Apricorn.", "It has a mysterious, aromatic scent."],
+        "wht": ["Wht Apricorn", "A white Apricorn.", "It doesn't smell like anything."]
+    }
+}

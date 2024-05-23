@@ -1,0 +1,113 @@
+.apricorn {
+    width: 75%;
+    image-rendering: pixelated;
+    -webkit-user-drag: element;
+}
+  
+.icon {
+    background-color: #A05840;
+    border-radius: 16px;
+    width: 70%;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apricorn:hover {
+    cursor: url('@/../../../../public/hand_grasp.png') 11 90, grab;
+}
+
+.apricorn:active {
+    cursor: url('@/../../../../public/hand_closed.png') 11 90, grabbing;
+}
+  
+.container {
+    height: 100%;
+    width: 45%;
+}
+  
+.box_outer {
+    background-color: #F0D0A0;
+    border: 3px solid #505050;
+    border-top: 0px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+.box_main {
+    border: 3px solid #C88068;
+    border-top: 0px;
+    background-color: #F0A018;
+    width: calc(100% - 32px);
+    max-height: calc(100% - 16px);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  
+    background-image: url('@/../../../../public/other/polka.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+  
+.corn_column {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.corn_left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: -16px;
+}
+  
+.corn_right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -16px;
+}
+
+.hidden_img {
+    opacity: 50%;
+    width: 75%;
+    position: relative;
+}
+
+.title {
+    background-color: #A05840;
+    background: linear-gradient(#59A2F3 44.44%, #59A2F3 44.44%, #388AE3 44.44%, #388AE3 55.55%, #2068D2 55.55%, #2068D2 100%);
+    border-radius: 16px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 8px solid #494951;
+    border: 4px solid #2068D2;
+
+    font-weight: bold;
+    font-size: 4.4vh;
+    
+    padding: 4%;
+}
+
+.title:hover {
+    background: linear-gradient(#2068D2 0%, #2068D2 100%);
+}
